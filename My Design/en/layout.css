@@ -37,5 +37,38 @@ body > * > * > * > * > * > * > * {
 }
 
 /********Layout Design**********/
+.warper {
+	min-width: 950px;
+}
+.container {
+	width: 950px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1px; /* ZedLoos */
+}
 
+.header.container {
+	min-height: 105px;
+}
+.nav.container {
+	min-height: 58px;
+}
+.slider.container {
+	min-height: 431px;
+}
+.top_widgets.container {
+	min-height: 338px;
+}
+.posts_area.container {
+	min-height: 758px;
+}
+.posts_area_foot.container {
+	min-height: 228px;
+}
+.footer_widgets.container {
+	min-height: 283px;
+}
+.footer.container {
+	min-height: 56px;
+}
 
