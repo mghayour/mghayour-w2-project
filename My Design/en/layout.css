@@ -49,6 +49,8 @@ body > * > * > * > * > * > * > * {
 
 .header.container {
 	min-height: 105px;
+	min-height: 25px;
+	padding: 40px 0;
 }
 .nav.container {
 	min-height: 58px;
