@@ -77,12 +77,13 @@ body.have_outline > * > * > * > * > * > * > * {
 	min-width: 950px;
 }
 .container {
+	*zoom:1; /* IE FIX :| */
 	width: 950px;
 	margin-left: auto;
 	margin-right: auto;
 	padding: 1px; /* ZedLoos */
 }
-.container:after {
+.container:after { /* BadBoy */
 	content: " ";
 	display: block;
 	clear: both;
