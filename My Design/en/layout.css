@@ -47,11 +47,20 @@ body.have_outline > * > * > * > * > * > * > * {
 	position: fixed;
 	z-index: 9999;
 	top: 200px;
-	left: 0;
+	left: -100px;
 	padding: 3px 5px;
+	border: 2px solid #083;
 	-webkit-border-radius: 6px;
 	-moz-border-radius: 6px;
 	border-radius: 6px;
+	-webkit-transition: left 0.5s;
+	   -moz-transition: left 0.5s;
+	     -ms-transition: left 0.5s;
+	        -o-transition: left 0.5s;
+	            transition: left 0.5s;
+}
+.design_stat:hover {
+	left: 0;
 }
 .design_stat ul {
 	padding: 0;
@@ -62,6 +71,7 @@ body.have_outline > * > * > * > * > * > * > * {
 	padding: 3px 5px;
 	margin: 0;
 }
+
 /********Layout Design**********/
 .warper {
 	min-width: 950px;
