@@ -52,9 +52,26 @@ body > * > * > * > * > * > * > * {
 	min-height: 25px;
 	padding: 40px 0;
 }
+
+/* Nav */
 .nav.container {
 	min-height: 58px;
 }
+.nav_menu {
+	padding: 0;
+	margin: 13px 0;
+}
+.menu_li_first {
+	float: left;
+	margin-right: 30px;
+}
+.menu_li_first a {
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	padding: 4px 8px;
+}
+
 .slider.container {
 	min-height: 431px;
 }
