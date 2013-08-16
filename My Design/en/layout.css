@@ -120,9 +120,17 @@ body.have_outline > * > * > * > * > * > * > * {
 .top_widgets.container {
 	padding: 35px 0 40px;
 }
+
+/* posts_area */
 .posts_area.container {
 	min-height: 758px;
 }
+
+/* post */
+.post_image {
+	margin-right: 20px;
+}
+
 .posts_area_foot.container {
 	min-height: 228px;
 }
