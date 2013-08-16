@@ -2,40 +2,66 @@
 body {
 	background-color: #f2f2f2;
 	zoom: 1; /* Just For IE ! - Che khonak ! */
+	min-height: 2274px;
+}
+body.mainsite_bg {
 	background-image: url(image/index-bg.png);
 	background-repeat: no-repeat;
 	background-position: top center;
-	min-height: 2274px;
 }
-body > * {
+body.have_outline > * {
 	outline: 1px dashed #550;
 	background-color: rgba(155,230,95,0.2);
 }
-body > * > * {
+body.have_outline > * > * {
 	outline: 1px dashed #f05;
 	background-color: rgba(255,0,95,0.2);
 }
-body > * > * > * {
+body.have_outline > * > * > * {
 	outline: 1px dashed #f80;
 	background-color: rgba(255,128,0,0.2);
 }
-body > * > * > * > * {
+body.have_outline > * > * > * > * {
 	outline: 1px dashed #0f0;
 	background-color: rgba(0,255,0,0.2);
 }
-body > * > * > * > * > * {
+body.have_outline > * > * > * > * > * {
 	outline: 1px dashed #08f;
 	background-color: rgba(0,150,255,0.2);
 }
-body > * > * > * > * > * > * {
+body.have_outline > * > * > * > * > * > * {
 	outline: 1px dashed #000;
 	background-color: rgba(0,0,255,0.2);
 }
-body > * > * > * > * > * > * > * {
+body.have_outline > * > * > * > * > * > * > * {
 	outline: 1px dashed #f0f;
 	background-color: rgba(255,0,255,0.2);
 }
 
+.design_stat *,
+.design_stat {
+	background-color: #fff !important;
+	outline: none !important;
+}
+.design_stat {
+	position: fixed;
+	z-index: 9999;
+	top: 200px;
+	left: 0;
+	padding: 3px 5px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+.design_stat ul {
+	padding: 0;
+	margin: 0;
+}
+
+.design_stat li {
+	padding: 3px 5px;
+	margin: 0;
+}
 /********Layout Design**********/
 .warper {
 	min-width: 950px;
