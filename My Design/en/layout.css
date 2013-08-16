@@ -46,10 +46,13 @@ body > * > * > * > * > * > * > * {
 	margin-right: auto;
 	padding: 1px; /* ZedLoos */
 }
+.container:after {
+	content: " ";
+	display: block;
+	clear: both;
+}
 
 .header.container {
-	min-height: 105px;
-	min-height: 25px;
 	padding: 40px 0;
 }
 
