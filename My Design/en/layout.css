@@ -113,8 +113,61 @@ body.have_outline > * > * > * > * > * > * > * {
 	padding: 4px 8px;
 }
 
+/* Slider */
 .slider.container {
-	min-height: 431px;
+	
+}
+.accslider {
+	height: 398px;
+	overflow: hidden;
+	border: 16px solid gray;
+}
+.accslider ul,
+.accslider li {
+	margin: 0;
+	padding: 0;
+}
+.accslider ul {
+	width: 2000px;
+	height: inherit;
+}
+.accslider li {
+	position: relative;
+	width: 306px;
+	overflow: hidden;
+	height: inherit;
+	float: left;
+	-webkit-transition: width 0.5s;
+	   -moz-transition: width 0.5s;
+	     -ms-transition: width 0.5s;
+	        -o-transition: width 0.5s;
+	            transition: width 0.5s;
+}
+.accslider ul:hover li {
+	width: 86px;
+}
+.accslider ul li:hover {
+	width: 745px;
+}
+.accslider .slide1 {background-image: url('image/slider-a.jpg');}
+.accslider .slide2 {background-image: url('image/slider-b.jpg');}
+.accslider .slide3 {background-image: url('image/slider-c.jpg'); padding-right: 300px;}
+
+.accslider ul li .text {
+	position: absolute;
+	top: 348px;
+	-webkit-transition: top 0.5s;
+	   -moz-transition: top 0.5s;
+	     -ms-transition: top 0.5s;
+	        -o-transition: top 0.5s;
+	            transition: top 0.5s;
+}
+.accslider ul li:hover .text {
+	top: 290px;
+}
+.accslider ul li .text h2 {
+	margin-top: 0;
+	white-space: nowrap;
 }
 
 /* top_widgets */
