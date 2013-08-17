@@ -156,9 +156,12 @@ body.have_outline > * > * > * > * > * > * > * {
 .reflogo5:hover{background-image: url('image/reflogo5-hov.png');}
 .reflogo5 {float:none; margin-right:0; margin-left:auto;}
 
+/* footer_widgets */
 .footer_widgets.container {
-	min-height: 283px;
+	padding: 30px 0;
 }
+
+
 .footer.container {
 	min-height: 56px;
 }
