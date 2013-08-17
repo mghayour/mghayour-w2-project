@@ -131,9 +131,31 @@ body.have_outline > * > * > * > * > * > * > * {
 	margin-right: 20px;
 }
 
+/* posts_area_foot */
 .posts_area_foot.container {
-	min-height: 143px;
+	padding: 24px 0 40px;
 }
+/* reflogos */
+.reflogo {
+	float: left;
+	width: 174px;
+	height: 80px;
+	margin: 0 20px 0 0;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.reflogo1{background-image: url('image/reflogo1.png');}
+.reflogo1:hover{background-image: url('image/reflogo1-hov.png');}
+.reflogo2{background-image: url('image/reflogo2.png');}
+.reflogo2:hover{background-image: url('image/reflogo2-hov.png');}
+.reflogo3{background-image: url('image/reflogo3.png');}
+.reflogo3:hover{background-image: url('image/reflogo3-hov.png');}
+.reflogo4{background-image: url('image/reflogo4.png');}
+.reflogo4:hover{background-image: url('image/reflogo4-hov.png');}
+.reflogo5{background-image: url('image/reflogo5.png');}
+.reflogo5:hover{background-image: url('image/reflogo5-hov.png');}
+.reflogo5 {float:none; margin-right:0; margin-left:auto;}
+
 .footer_widgets.container {
 	min-height: 283px;
 }
