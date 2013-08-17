@@ -58,6 +58,7 @@ body.have_outline > * > * > * > * > * > * > * {
 	     -ms-transition: left 0.5s;
 	        -o-transition: left 0.5s;
 	            transition: left 0.5s;
+	cursor:pointer;
 }
 .design_stat:hover {
 	left: 0;
@@ -161,9 +162,14 @@ body.have_outline > * > * > * > * > * > * > * {
 	padding: 30px 0;
 }
 
-
+/* footer */
 .footer.container {
-	min-height: 56px;
+	padding: 20px 0;
+}
+.footer.container a {
+	padding: 3px 5px;
+	text-decoration: none;
+	color: inherit;
 }
 
 
