@@ -1,0 +1,13 @@
+<NotepadPlus>
+    <Project name="W2_Final">
+        <Folder name="cssref">
+            <File name="My Design\cssref\1reset.css" />
+            <File name="My Design\cssref\1styles.css" />
+            <File name="My Design\cssref\font-awesome.min.css" />
+        </Folder>
+        <Folder name="en">
+            <File name="My Design\en\index.html" />
+            <File name="My Design\en\layout.css" />
+        </Folder>
+    </Project>
+</NotepadPlus>
