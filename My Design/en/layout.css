@@ -33,7 +33,7 @@ body.have_outline > * > * > * > * > * > * {
 	outline: 1px dashed #000;
 	background-color: rgba(0,0,255,0.2);
 }
-body.have_outline > * > * > * > * > * > * > * {
+body.have_outline > * > * > * > * > * > * * {
 	outline: 1px dashed #f0f;
 	background-color: rgba(255,0,255,0.2);
 }
@@ -102,15 +102,39 @@ body.have_outline > * > * > * > * > * > * > * {
 	padding: 0;
 	margin: 13px 0;
 }
-.menu_li_first {
+.nav_menu > li {
 	float: left;
 	margin-right: 30px;
 }
-.menu_li_first a {
+.nav_menu li {
+	position: relative;
+}
+.nav_menu a {
 	display: block;
 	color: #fff;
 	text-decoration: none;
 	padding: 4px 8px;
+}
+.nav_menu > li > menu {
+	min-width: 100%;
+}
+.nav_menu menu {
+	display: none;
+	top: 100%;
+	left: 0;
+	position: absolute;
+	z-index: 999;
+	padding: 0;
+	margin: 0;
+	white-space: nowrap;
+}
+.nav_menu li:hover > menu {
+	display: block;
+}
+.nav_menu menu menu {
+	top: 0;
+	left: 100%;
+	white-space: nowrap;
 }
 
 /* Slider */
