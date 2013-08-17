@@ -2,7 +2,7 @@
 body {
 	background-color: #f2f2f2;
 	zoom: 1; /* Just For IE ! - Che khonak ! */
-	min-height: 2274px;
+	min-height: 1936px;
 }
 body.mainsite_bg {
 	background-image: url(image/index-bg.png);
@@ -123,7 +123,7 @@ body.have_outline > * > * > * > * > * > * > * {
 
 /* posts_area */
 .posts_area.container {
-	min-height: 758px;
+	
 }
 
 /* post */
@@ -132,7 +132,7 @@ body.have_outline > * > * > * > * > * > * > * {
 }
 
 .posts_area_foot.container {
-	min-height: 228px;
+	min-height: 143px;
 }
 .footer_widgets.container {
 	min-height: 283px;
