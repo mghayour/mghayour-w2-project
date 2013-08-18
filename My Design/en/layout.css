@@ -75,7 +75,7 @@ body.have_outline > * > * > * > * > * > * * {
 }
 
 /********Layout Design**********/
-.warper {
+.wrapper {
 	min-width: 950px;
 }
 .container {
@@ -91,7 +91,7 @@ body.have_outline > * > * > * > * > * > * * {
 	clear: both;
 }
 
-.header.warper {
+.header.wrapper {
 	background-color: #fff;
 	font-family: 'Oswald', sans-serif;
 }
@@ -111,7 +111,7 @@ body.have_outline > * > * > * > * > * > * * {
 }
 
 /* Nav */
-	.nav.warper {
+	.nav.wrapper {
 		background-color: #333;
 		border-bottom: 2px solid #8DC03D;
 		color: #888;
@@ -206,12 +206,9 @@ body.have_outline > * > * > * > * > * > * * {
 	}
 
 /* Slider */
-.slider.warper {
+.slider.wrapper {
 	padding: 20px 0;
 	background-color: #fbfbfb;
-	-webkit-box-shadow: inset hoff voff blur color;
-	-moz-box-shadow: inset hoff voff blur color;
-	box-shadow: 0 0 5px -2px #777;
 }
 .slider.container {
 	
@@ -283,6 +280,12 @@ body.have_outline > * > * > * > * > * > * * {
 }
 
 /* top_widgets */
+.top_widgets.wrapper {
+	-webkit-box-shadow: inset 0 0 5px -2px #222;
+	-moz-box-shadow: inset 0 0 5px -2px #222;
+	box-shadow: inset 0 3px 5px -2px #ddd;
+	background-color: #f3f3f3;
+}
 .top_widgets.container {
 	padding: 35px 0 40px;
 }
