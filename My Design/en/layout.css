@@ -48,7 +48,7 @@ body.have_outline > * > * > * > * > * > * * {
 	position: fixed;
 	z-index: 9999;
 	top: 200px;
-	left: -100px;
+	left: -80px;
 	padding: 3px 5px;
 	border: 2px solid #083;
 	-webkit-border-radius: 6px;
@@ -206,13 +206,23 @@ body.have_outline > * > * > * > * > * > * * {
 	}
 
 /* Slider */
+.slider.warper {
+	padding: 20px 0;
+	background-color: #fbfbfb;
+	-webkit-box-shadow: inset hoff voff blur color;
+	-moz-box-shadow: inset hoff voff blur color;
+	box-shadow: 0 0 5px -2px #777;
+}
 .slider.container {
 	
 }
 .accslider {
 	height: 398px;
 	overflow: hidden;
-	border: 16px solid gray;
+	border: 6px solid white;	/* outline: 1px solid #ddd - outline have some problems ! */
+	-webkit-box-shadow: 0 0 0 1px #ddd;
+	-moz-box-shadow: 0 0 0 1px #ddd;
+	box-shadow: 0 0 0 1px #ddd;
 }
 .accslider ul,
 .accslider li {
@@ -225,7 +235,7 @@ body.have_outline > * > * > * > * > * > * * {
 }
 .accslider li {
 	position: relative;
-	width: 306px;
+	width: 313px;
 	overflow: hidden;
 	height: inherit;
 	float: left;
@@ -234,32 +244,42 @@ body.have_outline > * > * > * > * > * > * * {
 	     -ms-transition: width 0.5s;
 	        -o-transition: width 0.5s;
 	            transition: width 0.5s;
+	-webkit-box-shadow: 0 0 10px -2px #777;
+	-moz-box-shadow: 0 0 10px -2px #777;
+	box-shadow: 0 0 10px -2px #777;
 }
 .accslider ul:hover li {
-	width: 86px;
+	width: 97px;
 }
 .accslider ul li:hover {
 	width: 745px;
 }
-.accslider .slide1 {background-image: url('image/slider-a.jpg');}
-.accslider .slide2 {background-image: url('image/slider-b.jpg');}
-.accslider .slide3 {background-image: url('image/slider-c.jpg'); padding-right: 300px;}
+.accslider .slide1 {background-image: url('image/slider-c.jpg');}
+.accslider .slide2 {background-image: url('image/slider-a.jpg');}
+.accslider .slide3 {background-image: url('image/slider-b.jpg'); padding-right: 300px;}
 
 .accslider ul li .text {
-	position: absolute;
+	position: relative;
 	top: 348px;
+	padding: 20px 10px;
+	color: #fff;
+	background-color: #8DC03D; /* If don't support rgba */
+	background-color: rgba(141,192,61,0.9);
 	-webkit-transition: top 0.5s;
 	   -moz-transition: top 0.5s;
 	     -ms-transition: top 0.5s;
 	        -o-transition: top 0.5s;
 	            transition: top 0.5s;
 }
-.accslider ul li:hover .text {
-	top: 290px;
-}
 .accslider ul li .text h2 {
 	margin-top: 0;
 	white-space: nowrap;
+	font-family: 'Oswald', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+}
+.accslider ul li:hover .text {
+	top: 310px;
 }
 
 /* top_widgets */
