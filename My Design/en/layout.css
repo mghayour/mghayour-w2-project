@@ -90,8 +90,23 @@ body.have_outline > * > * > * > * > * > * * {
 	clear: both;
 }
 
+.header.warper {
+	background-color: #fff;
+	font-family: 'Oswald', sans-serif;
+}
 .header.container {
 	padding: 40px 0;
+	border-top: 2px solid #8DC03D;
+	color: #777;
+	font-size: 16px;
+}
+.header.container .icon {
+	font-size: 20px;
+	margin: 2px 5px;
+	color: #aaa;
+}
+.header.container .icon:hover {
+	color: #555;
 }
 
 /* Nav */
