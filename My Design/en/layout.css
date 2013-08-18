@@ -289,6 +289,42 @@ body.have_outline > * > * > * > * > * > * * {
 .top_widgets.container {
 	padding: 35px 0 40px;
 }
+.top_widgets .head h2 {
+	margin-top: 0;
+	font-family: 'Oswald', sans-serif;
+	font-size: 26px;
+}
+.top_widgets .head p {
+	color: #666;
+	font-style: italic;
+	font-size: 14px;
+	line-height: 1.5;
+}
+.top_widgets .widgets .textpanel h3 {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+}
+.top_widgets .widgets .textpanel p {
+	margin-top: 15px;
+	margin-bottom: 10px;
+	font-size: 12px;
+	color: #666;
+	line-height: 1.5;
+}
+.top_widgets .widgets .iconpanel .icon {
+	display: block;
+	width: 60px;
+	height: 60px;
+	margin: 5px auto 0 8px;
+}
+.top_widgets .widgets .iconpanel .icon1 {background-image: url(image/ico1.png);}
+.top_widgets .widgets .iconpanel .icon2 {background-image: url(image/ico2.png);}
+.top_widgets .widgets .iconpanel .icon3 {background-image: url(image/ico3.png);}
+.top_widgets .widgets .iconpanel .icon1:hover {background-image: url(image/ico1-hov.png);}
+.top_widgets .widgets .iconpanel .icon2:hover {background-image: url(image/ico2-hov.png);}
+.top_widgets .widgets .iconpanel .icon3:hover {background-image: url(image/ico3-hov.png);}
 
 /* posts_area */
 .posts_area.container {
@@ -343,7 +379,7 @@ body.have_outline > * > * > * > * > * > * * {
 
 /* Elements Design */
 
-    .btn {
+    .btn1 {
         
         -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
         -webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
@@ -359,24 +395,24 @@ body.have_outline > * > * > * > * > * > * * {
         
         background-color:#ffffff;
         
-        -moz-border-radius:6px;
-        -webkit-border-radius:6px;
-        border-radius:6px;
+        -moz-border-radius:2px;
+        -webkit-border-radius:2px;
+        border-radius:2px;
         
         border:1px solid #dcdcdc;
         
         display:inline-block;
         color:#666666;
         font-family:arial;
-        font-size:15px;
-        font-weight:bold;
-        padding:6px 24px;
+        font-size:12px;
+        font-weight: 500;
+        padding: 8px 15px;
         text-decoration:none;
         
         text-shadow:0px 1px 0px #ffffff;
         
     }
-    .btn:hover {
+    .btn1:hover {
         
         background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f6f6f6), color-stop(1, #ffffff));
         background:-moz-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
@@ -388,7 +424,7 @@ body.have_outline > * > * > * > * > * > * * {
         
         background-color:#f6f6f6;
     }
-    .btn:active {
+    .btn1:active {
         position:relative;
         top:1px;
     }
