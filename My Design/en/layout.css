@@ -295,7 +295,7 @@ body.have_outline > * > * > * > * > * > * * {
 	font-size: 26px;
 }
 .top_widgets .head p {
-	color: #666;
+	color: #666666;
 	font-style: italic;
 	font-size: 14px;
 	line-height: 1.5;
@@ -327,13 +327,29 @@ body.have_outline > * > * > * > * > * > * * {
 .top_widgets .widgets .iconpanel .icon3:hover {background-image: url(image/ico3-hov.png);}
 
 /* posts_area */
-.posts_area.container {
-	
+.posts_area.wrapper {
+	background-color: #fbfbfb;
 }
 
 /* post */
-.post_image {
-	margin-right: 20px;
+.posts_area .post .post_title {
+	margin: 30px 0 0 0;
+	font-family: 'Oswald', sans-serif;
+	font-size: 18px;
+}
+.posts_area .post .post_image {
+	display: block;
+	float: left;
+	margin: 20px 20px 20px 0;
+	border: 6px solid white;
+	-webkit-box-shadow: 0 0 0 1px #ddd;
+	-moz-box-shadow: 0 0 0 1px #ddd;
+	box-shadow: 0 0 0 1px #ddd;
+}
+.posts_area .post p {
+	font-size: 12px;
+	line-height: 1.5;
+	color: #555;
 }
 
 /* posts_area_foot */
