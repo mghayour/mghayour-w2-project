@@ -420,12 +420,15 @@ body.have_outline > * > * > * > * > * > * * {
 }
 /* reflogos */
 .reflogo {
+	display: block;
 	float: left;
-	width: 174px;
+	width: 172px;
 	height: 80px;
 	margin: 0 20px 0 0;
+	background-color: #fff;
 	background-repeat: no-repeat;
 	background-position: center center;
+	border: 1px solid #ddd;
 }
 .reflogo1{background-image: url('image/reflogo1.png');}
 .reflogo1:hover{background-image: url('image/reflogo1-hov.png');}
