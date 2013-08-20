@@ -89,6 +89,11 @@ body.have_outline > * > * > * > * > * > * * {
 	display: block;
 	clear: both;
 }
+h3.title {
+	margin: 30px 0 0 0;
+	font-family: 'Oswald', sans-serif;
+	font-size: 18px;
+}
 
 .header.wrapper {
 	background-color: #fff;
@@ -288,6 +293,11 @@ body.have_outline > * > * > * > * > * > * * {
 .top_widgets.container {
 	padding: 35px 0 40px;
 }
+.top_widgets .head {
+	padding: 0 20px;
+	margin-top: 0;
+	text-align: center;
+}
 .top_widgets .head h2 {
 	margin-top: 0;
 	font-family: 'Oswald', sans-serif;
@@ -298,6 +308,9 @@ body.have_outline > * > * > * > * > * > * * {
 	font-style: italic;
 	font-size: 14px;
 	line-height: 1.5;
+}
+.top_widgets .widgets .textpanel {
+	margin-top: 20px;
 }
 .top_widgets .widgets .textpanel h3 {
 	margin-top: 0;
@@ -331,11 +344,6 @@ body.have_outline > * > * > * > * > * > * * {
 }
 
 /* right panel */
-.posts_area .posts_rightpanel .title {
-	margin: 30px 0 0 0;
-	font-family: 'Oswald', sans-serif;
-	font-size: 18px;
-}
 .dropdown_vertical_menu,
 .dropdown_vertical_menu li,
 .dropdown_vertical_menu input,
@@ -393,11 +401,6 @@ body.have_outline > * > * > * > * > * > * * {
 	height: auto;
 }
 /* post */
-.posts_area .post .post_title {
-	margin: 30px 0 0 0;
-	font-family: 'Oswald', sans-serif;
-	font-size: 18px;
-}
 .posts_area .post .post_image {
 	display: block;
 	float: left;
@@ -456,9 +459,6 @@ body.have_outline > * > * > * > * > * > * * {
 	width: 200px;
 }
 .footer_widgets .widgets .title {
-	margin: 30px 0 0;
-	font-family: 'Oswald', sans-serif;
-	font-size: 18px;
 	color: #bbb;
 }
 .footer_widgets .widgets p {
