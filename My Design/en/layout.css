@@ -2,7 +2,6 @@
 body {
 	background-color: #f2f2f2;
 	zoom: 1; /* Just For IE ! - Che khonak ! */
-	min-height: 1936px;
 	font: normal normal 400 12px/15px Arial;
 }
 body.mainsite_bg {
@@ -497,14 +496,26 @@ body.have_outline > * > * > * > * > * > * * {
 /* footer */
 .footer.wrapper {
 	background-color: #171717;
+	color: #666666;
 }
 .footer.container {
-	padding: 20px 0;
+	padding: 20px 0 30px;
 }
-.footer.container a {
-	padding: 3px 5px;
+.footer .links {
+	font-family: 'Oswald', sans-serif;
+	font-size: 14px;
+}
+.footer .links a {
+	padding: 5px 10px;
+}
+.footer a {
+	margin: 0;
+	padding: 3px;
 	text-decoration: none;
-	color: inherit;
+	color: #777;
+}
+.footer a:hover {
+	color: #ccc;
 }
 
 
