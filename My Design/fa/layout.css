@@ -91,13 +91,13 @@ body.have_outline > * > * > * > * > * > * * {
 }
 h3.title {
 	margin: 30px 0 0 0;
-	font-family: 'Oswald', sans-serif;
+	font-family: 'bardiya', 'Oswald', sans-serif;
 	font-size: 18px;
 }
 
 .header.wrapper {
 	background-color: #fff;
-	font-family: 'Oswald', sans-serif;
+	font-family: 'bardiya', 'Oswald', sans-serif;
 }
 .header.container {
 	padding: 40px 0;
@@ -146,7 +146,7 @@ h3.title {
 		float: right;
 	}
 	.nav_menu > li > a {
-		font-family: 'Oswald', sans-serif;
+		font-family: 'bardiya', 'Oswald', sans-serif;
 		font-size: 16px;
 	}
 	.nav_menu > li:before {
@@ -254,9 +254,13 @@ h3.title {
 .accslider ul li:hover {
 	width: 745px;
 }
+.accslider .slide {
+	background-position: top right;
+	background-repeat: no-repeat;
+}
 .accslider .slide1 {background-image: url('image/slider-c.jpg');}
-.accslider .slide2 {background-image: url('image/slider-a.jpg');}
-.accslider .slide3 {background-image: url('image/slider-b.jpg'); padding-left: 300px;}
+.accslider .slide2 {background-image: url('image/slider-b.jpg');}
+.accslider .slide3 {background-image: url('image/slider-a.jpg'); padding-left: 300px;}
 
 .accslider ul li .text {
 	position: relative;
@@ -275,7 +279,7 @@ h3.title {
 .accslider ul li .text h2 {
 	margin-top: 0;
 	white-space: nowrap;
-	font-family: 'Oswald', sans-serif;
+	font-family: 'bardiya', 'Oswald', sans-serif;
 	font-size: 18px;
 	font-weight: 400;
 }
@@ -300,7 +304,7 @@ h3.title {
 }
 .top_widgets .head h2 {
 	margin-top: 0;
-	font-family: 'Oswald', sans-serif;
+	font-family: 'bardiya', 'Oswald', sans-serif;
 	font-size: 26px;
 }
 .top_widgets .head p {
@@ -315,7 +319,7 @@ h3.title {
 .top_widgets .widgets .textpanel h3 {
 	margin-top: 0;
 	margin-bottom: 0;
-	font-family: 'Oswald', sans-serif;
+	font-family: 'bardiya', 'Oswald', sans-serif;
 	font-size: 20px;
 }
 .top_widgets .widgets .textpanel p {
@@ -363,7 +367,7 @@ h3.title {
 .dropdown_vertical_menu .head {
 	margin: 0;
 	padding: 0;
-	font-family: 'Oswald', sans-serif;
+	font-family: 'bardiya', 'Oswald', sans-serif;
 	font-size: 18px;
 	background-color: #fbfbfb;
 	border: 0 solid #ddd;
@@ -502,7 +506,7 @@ h3.title {
 	padding: 20px 0 30px;
 }
 .footer .links {
-	font-family: 'Oswald', sans-serif;
+	font-family: 'bardiya', 'Oswald', sans-serif;
 	font-size: 14px;
 }
 .footer .links a {
