@@ -484,7 +484,7 @@ h3.title {
 	margin: 0;
 	padding: 5px 13px;
 	background-image: url("image/bullet.png");
-	background-position: 2px 13px;
+	background-position: 100% 12px;
 	background-repeat: no-repeat;
 }
 .footer_widgets h6 { 
