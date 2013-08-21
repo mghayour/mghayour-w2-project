@@ -47,21 +47,21 @@ body.have_outline > * > * > * > * > * > * * {
 	position: fixed;
 	z-index: 9999;
 	top: 200px;
-	left: -80px;
+	right: -80px;
 	padding: 3px 5px;
 	border: 2px solid #083;
 	-webkit-border-radius: 6px;
 	-moz-border-radius: 6px;
 	border-radius: 6px;
-	-webkit-transition: left 0.5s;
-	   -moz-transition: left 0.5s;
-	     -ms-transition: left 0.5s;
-	        -o-transition: left 0.5s;
-	            transition: left 0.5s;
+	-webkit-transition: right 0.5s;
+	   -moz-transition: right 0.5s;
+	     -ms-transition: right 0.5s;
+	        -o-transition: right 0.5s;
+	            transition: right 0.5s;
 	cursor:pointer;
 }
 .design_stat:hover {
-	left: 0;
+	right: 0;
 }
 .design_stat ul {
 	padding: 0;
@@ -156,7 +156,7 @@ h3.title {
 		width: 0;
 		height: 20px;
 		top: 18px;
-		left: 0;
+		right: 0;
 		border-left: 1px solid #444;
 	}
 	.nav_menu > li:first-child:before {
@@ -176,7 +176,7 @@ h3.title {
 		position: absolute;
 		z-index: 999;
 		top: 100%;
-		left: 0;
+		right: 0;
 		padding: 0;
 		margin: 0;
 		min-width: 200px;
@@ -193,7 +193,7 @@ h3.title {
 	}
 	.nav_menu menu menu {
 		top: 0;
-		left: 100%;
+		right: 100%;
 	}
 	.nav_menu li li {
 		border-top: 1px solid #eee;
@@ -220,8 +220,7 @@ h3.title {
 .accslider {
 	height: 398px;
 	overflow: hidden;
-	border: 6px solid white;	/* outline: 1px solid #ddd - outline have some problems ! */
-	-webkit-box-shadow: 0 0 0 1px #ddd;
+	border: 6px solid white;	-webkit-box-shadow: 0 0 0 1px #ddd;
 	-moz-box-shadow: 0 0 0 1px #ddd;
 	box-shadow: 0 0 0 1px #ddd;
 }
@@ -245,9 +244,9 @@ h3.title {
 	     -ms-transition: width 0.5s;
 	        -o-transition: width 0.5s;
 	            transition: width 0.5s;
-	-webkit-box-shadow: 0 0 10px -2px #777;
-	-moz-box-shadow: 0 0 10px -2px #777;
-	box-shadow: 0 0 10px -2px #777;
+	-webkit-box-shadow: 0 0 10px -2px #555;
+	-moz-box-shadow: 0 0 10px -2px #555;
+	box-shadow: 0 0 10px -2px #555;
 }
 .accslider ul:hover li {
 	width: 97px;
@@ -257,12 +256,13 @@ h3.title {
 }
 .accslider .slide1 {background-image: url('image/slider-c.jpg');}
 .accslider .slide2 {background-image: url('image/slider-a.jpg');}
-.accslider .slide3 {background-image: url('image/slider-b.jpg'); padding-right: 300px;}
+.accslider .slide3 {background-image: url('image/slider-b.jpg'); padding-left: 300px;}
 
 .accslider ul li .text {
 	position: relative;
 	top: 348px;
-	padding: 20px 10px;
+	padding: 20px 10px 20px 300px;
+	width: 725px; /* -20 (padding) ! */
 	color: #fff;
 	background-color: #8DC03D; /* If don't support rgba */
 	background-color: rgba(141,192,61,0.9);
@@ -343,7 +343,7 @@ h3.title {
 	background-color: #fbfbfb;
 }
 
-/* right panel */
+/* dropdown_vertical_menu */
 .dropdown_vertical_menu,
 .dropdown_vertical_menu li,
 .dropdown_vertical_menu input,
