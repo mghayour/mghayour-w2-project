@@ -370,7 +370,7 @@ h3.title {
 	border-width: 1px 0;
 	background-image: url(image/arrows.png);
 	background-repeat: no-repeat;
-	background-position: 100% 14px;
+	background-position: 10px 14px;
 }
 .dropdown_vertical_menu .head label {
 	display: block;
@@ -394,7 +394,7 @@ h3.title {
 }
 .dropdown_vertical_menu input:checked + .head {
 	border-top: 3px solid #8DC03D;
-	background-position: 100% -19px;
+	background-position: 10px -19px;
 }
 .dropdown_vertical_menu input:checked ~ .contents {
 	padding: 15px;
@@ -404,7 +404,7 @@ h3.title {
 .posts_area .post .post_image {
 	display: block;
 	float: right;
-	margin: 20px 20px 20px 0;
+	margin: 20px 0 20px 20px;
 	border: 6px solid white;
 	-webkit-box-shadow: 0 0 0 1px #ddd;
 	-moz-box-shadow: 0 0 0 1px #ddd;
@@ -426,7 +426,7 @@ h3.title {
 	float: right;
 	width: 172px;
 	height: 80px;
-	margin: 0 20px 0 0;
+	margin: 0 0 0 20px;
 	background-color: #fff;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -442,7 +442,7 @@ h3.title {
 .reflogo4:hover{background-image: url('image/reflogo4-hov.png');}
 .reflogo5{background-image: url('image/reflogo5.png');}
 .reflogo5:hover{background-image: url('image/reflogo5-hov.png');}
-.reflogo5 {float:none; margin-right:0; margin-left:auto;}
+.reflogo5 {float:none; margin-left:0; margin-right:auto;}
 
 /* footer_widgets */
 .footer_widgets.wrapper {
