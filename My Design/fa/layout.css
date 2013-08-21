@@ -143,7 +143,7 @@ h3.title {
 	}
 /* Menu */
 	.nav_menu > li {
-		float: left;
+		float: right;
 	}
 	.nav_menu > li > a {
 		font-family: 'Oswald', sans-serif;
@@ -239,7 +239,7 @@ h3.title {
 	width: 313px;
 	overflow: hidden;
 	height: inherit;
-	float: left;
+	float: right;
 	-webkit-transition: width 0.5s;
 	   -moz-transition: width 0.5s;
 	     -ms-transition: width 0.5s;
@@ -403,7 +403,7 @@ h3.title {
 /* post */
 .posts_area .post .post_image {
 	display: block;
-	float: left;
+	float: right;
 	margin: 20px 20px 20px 0;
 	border: 6px solid white;
 	-webkit-box-shadow: 0 0 0 1px #ddd;
@@ -423,7 +423,7 @@ h3.title {
 /* reflogos */
 .reflogo {
 	display: block;
-	float: left;
+	float: right;
 	width: 172px;
 	height: 80px;
 	margin: 0 20px 0 0;
