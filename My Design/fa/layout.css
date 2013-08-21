@@ -2,7 +2,6 @@
 body {
 	background-color: #f2f2f2;
 	zoom: 1; /* Just For IE ! - Che khonak ! */
-	font: normal normal 400 12px/15px Arial;
 }
 body.mainsite_bg {
 	background-image: url(image/index-bg.png);
@@ -74,6 +73,12 @@ body.have_outline > * > * > * > * > * > * * {
 }
 
 /********Layout Design**********/
+.body {
+	font-family: arial;
+	font-family: 'nazanin', arial;
+	font-size: 16px;
+	line-height: 1.2;
+}
 .wrapper {
 	min-width: 950px;
 }
@@ -265,7 +270,7 @@ h3.title {
 .accslider ul li .text {
 	position: relative;
 	top: 348px;
-	padding: 20px 10px 20px 300px;
+	padding: 15px 10px 20px 300px;
 	width: 725px; /* -20 (padding) ! */
 	color: #fff;
 	background-color: #8DC03D; /* If don't support rgba */
@@ -277,14 +282,14 @@ h3.title {
 	            transition: top 0.5s;
 }
 .accslider ul li .text h2 {
-	margin-top: 0;
+	margin: 0;
 	white-space: nowrap;
 	font-family: 'bardiya', 'Oswald', sans-serif;
 	font-size: 18px;
 	font-weight: 400;
 }
 .accslider ul li:hover .text {
-	top: 310px;
+	top: 290px;
 }
 
 /* top_widgets */
