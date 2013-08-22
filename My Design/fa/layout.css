@@ -394,8 +394,8 @@ h3.title {
 }
 .dropdown_vertical_menu .contents {	margin: 0;
 	background-color: #fff;
-	font-size: 12px;
-	line-height: 1.5;
+	font-size: 16px;
+	line-height: 1.3;
 	color: #555;
 	overflow: hidden;
 	height: 0;
@@ -410,6 +410,11 @@ h3.title {
 	height: auto;
 }
 /* post */
+.posts_area .post {
+	font-size: 16px;
+	line-height: 1.25;
+	color: #555;
+}
 .posts_area .post .post_image {
 	display: block;
 	float: right;
@@ -418,11 +423,6 @@ h3.title {
 	-webkit-box-shadow: 0 0 0 1px #ddd;
 	-moz-box-shadow: 0 0 0 1px #ddd;
 	box-shadow: 0 0 0 1px #ddd;
-}
-.posts_area .post p {
-	font-size: 12px;
-	line-height: 1.5;
-	color: #555;
 }
 
 /* posts_area_foot */
