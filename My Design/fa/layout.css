@@ -315,7 +315,7 @@ h3.title {
 .top_widgets .head p {
 	color: #666666;
 	font-style: italic;
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 1.5;
 }
 .top_widgets .widgets .textpanel {
@@ -330,7 +330,7 @@ h3.title {
 .top_widgets .widgets .textpanel p {
 	margin-top: 15px;
 	margin-bottom: 10px;
-	font-size: 12px;
+	font-size: 15px;
 	color: #666;
 	line-height: 1.5;
 }
@@ -340,12 +340,12 @@ h3.title {
 	height: 60px;
 	margin: 5px auto 0 8px;
 }
-.top_widgets .widgets .iconpanel .icon1 {background-image: url(image/ico1.png);}
-.top_widgets .widgets .iconpanel .icon2 {background-image: url(image/ico2.png);}
-.top_widgets .widgets .iconpanel .icon3 {background-image: url(image/ico3.png);}
-.top_widgets .widgets .iconpanel .icon1:hover {background-image: url(image/ico1-hov.png);}
-.top_widgets .widgets .iconpanel .icon2:hover {background-image: url(image/ico2-hov.png);}
-.top_widgets .widgets .iconpanel .icon3:hover {background-image: url(image/ico3-hov.png);}
+.top_widgets .widgets .iconpanel .icon1 {background-image: url(image/design-icon.png);}
+.top_widgets .widgets .iconpanel .icon2 {background-image: url(image/eye-icon.png);}
+.top_widgets .widgets .iconpanel .icon3 {background-image: url(image/debug-icon.png);}
+.top_widgets .widgets .iconpanel .icon1:hover {background-image: url(image/design-icon-hov.png);}
+.top_widgets .widgets .iconpanel .icon2:hover {background-image: url(image/eye-icon-hov.png);}
+.top_widgets .widgets .iconpanel .icon3:hover {background-image: url(image/debug-icon-hov.png);}
 
 /* posts_area */
 .posts_area.wrapper {
