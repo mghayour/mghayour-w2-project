@@ -588,3 +588,21 @@ h3.title {
         position:relative;
         top:1px;
     }
+
+    
+    /* Other pages*/
+    
+    
+    /* about me */
+.posts_area .post_aboutme {
+	background-image: url('image/aboutme.png');
+	background-repeat: no-repeat;
+	padding: 80px 10px 0px 480px;
+	min-height: 360px;
+}
+.posts_area .google_map {
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	border: 2px solid #8DC03D;
+}
