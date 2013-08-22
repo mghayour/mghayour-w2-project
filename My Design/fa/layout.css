@@ -441,16 +441,17 @@ h3.title {
 	background-position: center center;
 	border: 1px solid #ddd;
 }
-.reflogo1{background-image: url('image/reflogo1.png');}
-.reflogo1:hover{background-image: url('image/reflogo1-hov.png');}
-.reflogo2{background-image: url('image/reflogo2.png');}
-.reflogo2:hover{background-image: url('image/reflogo2-hov.png');}
-.reflogo3{background-image: url('image/reflogo3.png');}
-.reflogo3:hover{background-image: url('image/reflogo3-hov.png');}
-.reflogo4{background-image: url('image/reflogo4.png');}
-.reflogo4:hover{background-image: url('image/reflogo4-hov.png');}
-.reflogo5{background-image: url('image/reflogo5.png');}
-.reflogo5:hover{background-image: url('image/reflogo5-hov.png');}
+.reflogo5{background-image: url('image/atmel.png');}
+.reflogo5:hover{background-image: url('image/atmel-hov.png');}
+.reflogo4{background-image: url('image/lpc.jpg');}
+.reflogo4:hover{background-image: url('image/lpc-hov.jpg');}
+.reflogo3{background-image: url('image/nxp.jpg');}
+.reflogo3:hover{background-image: url('image/nxp-hov.jpg');}
+.reflogo2{background-image: url('image/roboeq.jpg');}
+.reflogo2:hover{background-image: url('image/roboeq-hov.jpg');}
+.reflogo1{background-image: url('image/iranmicro.png');}
+.reflogo1:hover{background-image: url('image/iranmicro-hov.png');}
+
 .reflogo5 {float:none; margin-left:0; margin-right:auto;}
 
 /* footer_widgets */
