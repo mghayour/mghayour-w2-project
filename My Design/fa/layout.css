@@ -462,6 +462,7 @@ h3.title {
 }
 .footer_widgets.container {
 	padding:0 0 30px;
+	font-size: 14px;
 }
 .footer_widgets .widgets {
 	padding: 0 15px;
@@ -473,7 +474,7 @@ h3.title {
 }
 .footer_widgets .widgets p {
 	margin: 10px 0 0;
-	font-size: 12px;
+	font-size: 14px;
 	line-height: 1.3;
 }
 .footer_widgets .widgets > p:first-child {
@@ -500,7 +501,7 @@ h3.title {
 .footer_widgets h6 { 
 	color: #B8B8B8;
 	font-style: italic;
-	font-size: 12px;
+	font-size: 14px;
 	margin: 20px 0 0;
 }
 /* footer */
