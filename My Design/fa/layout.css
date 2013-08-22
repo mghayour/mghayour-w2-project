@@ -79,6 +79,10 @@ body.have_outline > * > * > * > * > * > * * {
 	font-size: 16px;
 	line-height: 1.2;
 }
+.green {
+	color: #8DC03D;
+}
+
 .wrapper {
 	min-width: 950px;
 }
@@ -118,7 +122,10 @@ h3.title {
 .header.container .icon:hover {
 	color: #555;
 }
-
+.header .header_logo {
+	font-size: 32px;
+	font-weight: bold
+}
 /* Nav */
 	.nav.wrapper {
 		background-color: #333;
