@@ -83,17 +83,17 @@ body.have_outline > * > * > * > * > * > * * {
 	color: #8DC03D;
 }
 
-.wrapper {
+.page_wrapper {
 	min-width: 950px;
 }
-.container {
+.page_container {
 	*zoom:1; /* IE FIX :| */
 	width: 950px;
 	margin-left: auto;
 	margin-right: auto;
 	padding: 1px; /* ZedLoos */
 }
-.container:after { /* BadBoy */
+.page_container:after { /* BadBoy */
 	content: " ";
 	display: block;
 	clear: both;
@@ -104,22 +104,22 @@ h3.title {
 	font-size: 18px;
 }
 
-.header.wrapper {
+.header.page_wrapper {
 	background-color: #fff;
 	font-family: 'bardiya', 'Oswald', sans-serif;
 }
-.header.container {
+.header.page_container {
 	padding: 40px 0;
 	border-top: 2px solid #8DC03D;
 	color: #777;
 	font-size: 16px;
 }
-.header.container .icon {
+.header.page_container .icon {
 	font-size: 20px;
 	margin: 2px 5px;
 	color: #aaa;
 }
-.header.container .icon:hover {
+.header.page_container .icon:hover {
 	color: #555;
 }
 .header .header_logo {
@@ -127,12 +127,12 @@ h3.title {
 	font-weight: bold
 }
 /* Nav */
-	.nav.wrapper {
+	.nav.page_wrapper {
 		background-color: #333;
 		border-bottom: 2px solid #8DC03D;
 		color: #888;
 	}
-	.nav.container {
+	.nav.page_container {
 		
 	}
 	.nav_menu {
@@ -222,11 +222,11 @@ h3.title {
 	}
 
 /* Slider */
-.slider.wrapper {
+.slider.page_wrapper {
 	padding: 20px 0;
 	background-color: #fbfbfb;
 }
-.slider.container {
+.slider.page_container {
 	
 }
 .accslider {
@@ -300,13 +300,13 @@ h3.title {
 }
 
 /* top_widgets */
-.top_widgets.wrapper {
+.top_widgets.page_wrapper {
 	-webkit-box-shadow: inset 0 0 5px -2px #222;
 	-moz-box-shadow: inset 0 0 5px -2px #222;
 	box-shadow: inset 0 3px 5px -2px #ddd;
 	background-color: #f3f3f3;
 }
-.top_widgets.container {
+.top_widgets.page_container {
 	padding: 35px 0 40px;
 }
 .top_widgets .head {
@@ -355,7 +355,7 @@ h3.title {
 .top_widgets .widgets .iconpanel .icon3:hover {background-image: url(image/debug-icon-hov.png);}
 
 /* posts_area */
-.posts_area.wrapper {
+.posts_area.page_wrapper {
 	background-color: #fbfbfb;
 }
 
@@ -433,7 +433,7 @@ h3.title {
 }
 
 /* posts_area_foot */
-.posts_area_foot.container {
+.posts_area_foot.page_container {
 	padding: 24px 0 40px;
 }
 /* reflogos */
@@ -462,12 +462,12 @@ h3.title {
 .reflogo5 {float:none; margin-left:0; margin-right:auto;}
 
 /* footer_widgets */
-.footer_widgets.wrapper {
+.footer_widgets.page_wrapper {
 	background-color: #222;
 	color: #666666;
 	border-top: 2px solid #8DC03D;
 }
-.footer_widgets.container {
+.footer_widgets.page_container {
 	padding:0 0 30px;
 	font-size: 14px;
 }
@@ -512,11 +512,11 @@ h3.title {
 	margin: 20px 0 0;
 }
 /* footer */
-.footer.wrapper {
+.footer.page_wrapper {
 	background-color: #171717;
 	color: #666666;
 }
-.footer.container {
+.footer.page_container {
 	padding: 20px 0 30px;
 }
 .footer .links {
