@@ -651,3 +651,11 @@ form#contact input[type="submit"]:hover {
 	background-color: #8DC03D;
 	color: #fff;
 }
+
+/* 404 ERROR */
+.posts_area .post_404 {
+	background-image: url('image/404.jpg');
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	min-height: 400px;
+}
