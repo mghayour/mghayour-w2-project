@@ -1,7 +1,7 @@
 Hi there
 
 ### About this
-it's a layout design based on div and float just for learning html/css(+1grid)
+it's a layout design based on div and float just for learning html/css(+1stylus)
 
 ### Feature
 * layout.html : the html file 
